@@ -1,6 +1,3 @@
-<style lang=less>
-</style>
-
 <template>
   <div>
   </div>
@@ -37,3 +34,6 @@
     }
   }
 </script>
+
+<style>
+</style>
