@@ -10,7 +10,7 @@ var env = process.env.NODE_ENV === 'testing'
 
 var webpackConfig = merge(baseWebpackConfig, {
   entry: {
-    app: './src/main.js'
+    app: './src/Bz.vue'
   },
   module: {
     loaders: utils.styleLoaders({ sourceMap: config.build.productionSourceMap, extract: false })
