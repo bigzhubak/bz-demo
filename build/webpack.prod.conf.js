@@ -19,10 +19,10 @@ var webpackConfig = merge(baseWebpackConfig, {
   output: {
     library: 'Bz',
     libraryTarget: 'umd',
-    filename: 'main.js'
-    // path: config.build.assetsRoot
+    filename: 'main.js',
+    path: config.build.assetsRoot,
     // filename: utils.assetsPath('js/[name].[chunkhash].js'),
-    // chunkFilename: utils.assetsPath('js/[id].[chunkhash].js')
+    chunkFilename: utils.assetsPath('js/[id].[chunkhash].js')
   },
   vue: {
     loaders: utils.cssLoaders({
