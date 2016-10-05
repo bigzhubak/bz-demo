@@ -1,7 +1,9 @@
 #! /bin/bash
-sh ./change_name.sh
-npm run build
-git commit -am '$1'
-npm version patch
-npm publish ./
-git push
+# sh ./change_name.sh
+# npm run build
+commit='git commit -am "'$1'"'
+echo $commit
+eval $commit
+# npm version patch
+# npm publish ./
+# git push
