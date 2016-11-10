@@ -25,6 +25,10 @@ module.exports = {
       '/api_': {
         target: 'https://follow.center',
         changeOrigin: true
+      },
+      '/web_socket': {
+        target: 'ws://127.0.0.1:9000',
+        ws: true
       }
     },
     // CSS Sourcemaps off by default because relative paths are "buggy"
