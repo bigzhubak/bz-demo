@@ -2,7 +2,7 @@
   "name": "bz-demo",
   "version": "2.0.0",
   "description": "bz-demo",
-  "main": "dist/main.js",
+  "main": "src/Bz.vue",
   "keywords": [
     "vue",
     "component",
@@ -18,7 +18,7 @@
   },
   "homepage": "https://github.com/bigzhu/bz-demo#readme",
   "files": [
-    "dist"
+    "src"
   ],
   "scripts": {
     "dev": "node build/dev-server.js",
@@ -26,13 +26,6 @@
     "test": ""
   },
   "dependencies": {
-    "bz-semantic-ui-button": "latest",
-    "bz-semantic-ui-container": "latest",
-    "bz-semantic-ui-divider": "latest",
-    "bz-semantic-ui-reset": "latest",
-    "bz-semantic-ui-site": "latest",
-    "bz-semantic-ui-table": "latest",
-    "toastr": "latest"
   },
   "devDependencies": {
     "vue": "^2.0.1",

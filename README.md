@@ -1,6 +1,6 @@
-# bz-demo
+# bz-base
 
-> bz-demo
+> bz-base
 
 ## Build Setup
 
